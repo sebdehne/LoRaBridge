@@ -1,3 +1,9 @@
 # LoRa bridge
-Simple bridge code for the [Seeeduino XIAO](https://wiki.seeedstudio.com/Seeeduino-XIAO/) to link a
-[RN2483](https://www.microchip.com/wwwproducts/en/RN2483) module to a computer using serial port.
+Firmware for a modified version of my [LoRa SensorBoard](https://github.com/sebdehne/SensorBoard-Firmware) which
+I use as a LoRa-to-PC bridge. It connects directly to a PC using USB Type-C.
+
+The LED, which blinks at a fixed rate if there is some data been transmited or received, is handled in a non-blocking way such that it does not influence latency.
+
+![alt text](media/pcb.jpg "PCB")
+
+Even though this is no official Arduino board, I am using the bootloader from [Arduino Nano 33 IoT](https://store.arduino.cc/arduino-nano-33-iot) because of Arduino's excelent toolchain support.
