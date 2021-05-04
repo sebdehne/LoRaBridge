@@ -2,7 +2,7 @@
 Firmware for a modified version of my [LoRa SensorBoard](https://github.com/sebdehne/SensorBoard-Firmware) which
 I use as a LoRa-to-PC bridge. It connects directly to a PC using USB Type-C.
 
-The LED, which blinks at a fixed rate if there is some data been transmited or received, is handled in a non-blocking way such that it does not influence latency.
+The LED, which blinks at a fixed rate if there is some data been transmitted or received, is handled in a non-blocking way such that it does not influence the data throughput.
 
 ![alt text](media/pcb.jpg "PCB")
 
