@@ -1,5 +1,5 @@
 # LoRa bridge
-Firmware for a modified version of my [LoRa SensorBoard](https://github.com/sebdehne/SensorBoard-Firmware) which
+Firmware for a modified version of my [LoRa SensorBoard](https://github.com/sebdehne/SensorBoard-Hardware) which
 I use as a LoRa-to-PC bridge. It connects directly to a PC using USB Type-C.
 
 The LED, which blinks at a fixed rate if there is some data been transmitted or received, is handled in a non-blocking way such that it does not influence the data throughput.
